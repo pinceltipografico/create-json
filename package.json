@@ -1,0 +1,20 @@
+{
+  "name": "interactive_code",
+  "version": "1.0.0",
+  "description": "Server responsible to receive a scaped class and apply some tests.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Renato Almeida",
+  "license": "ISC",
+  "dependencies": {
+    "adm-zip": "^0.4.13",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "request": "^2.88.0",
+    "restify": "^8.4.0",
+    "restify-cors-middleware": "^1.1.1"
+  }
+}
